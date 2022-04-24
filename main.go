@@ -5,6 +5,7 @@ import (
 	"math/rand"
 	"time"
 
+	tm "github.com/buger/goterm"
 	randomUserAgent "github.com/corpix/uarand"
 	"github.com/valyala/fasthttp"
 )
@@ -42,32 +43,32 @@ func addShare(itemID string) {
 func rpmCounter() {
 	for {
 		before := sent
-		time.Sleep(6000 * time.Millisecond)
+		time.Sleep(100 * time.Millisecond)
 		after := sent
 
-		rpm = (after - before) * 10
+		rpm = (after - before) * 600
 	}
 }
 
 func statusPrinter() {
 	for {
-		time.Sleep(time.Millisecond * 500)
-		fmt.Printf("[+] Enviados: %v |\nCompartilhamento por minuto: %v |\nErros: %v\r|", sent, rpm, errors)
+		fmt.Printf("[+] Enviados: %v | Requests por minuto: %v | Erros: %v\r", sent, rpm, errors)
 	}
 }
 
 func main() {
 	rand.Seed(time.Now().Unix())
-    fmt.Print(" ___    _   _  _______  _  _   _ \n(  _`\ ( ) ( )(_____  )(_)( ) ( )\n| | ) || |/'/'     /'/'| || `\| |\n| | | )| , <     /'/'  | || , ` |\n| |_) || |\`\  /'/'___ | || |`\ |\n(____/'(_) (_)(_______)(_)(_) (_)")
-	fmt.Print("[ -> ] Script By Ruan Pablo / Duck\n[ -> ] instagram.com/rp.xyz\n\n")
+	tm.Clear()
+
+	fmt.Print("[+] instagram.com/rp.xyz\n\n")
 
 	var threads int
 	var itemID string
 
 	fmt.Print("[>] Threads: ")
 	fmt.Scanln(&threads)
-
-	fmt.Print("[>] ID do Video: ")
+	fmt.Print("O id do video se pega aki https://www.tiktok.com/@USERNAME/video/<ESSE NUMERO AKI> \n")
+	fmt.Print("[>] ID do video: ")
 	fmt.Scanln(&itemID)
 
 	fmt.Print("\n\n")
