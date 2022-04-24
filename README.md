@@ -28,11 +28,7 @@ Caso você esteja no celular , copie a URL do vídeo no tiktok , cole no Chrome,
 
 ## Preview
 
-![](https://cdn.has-cool.pics/tsYl0ZvyNasMpKC1SBIKvOXYn.png?k=Qpdnyk0hhyMZuFlD)
-
-![](https://cdn.has-cool.pics/bDWNzMKPsHtLOmpc13v2nASbD.png?k=QXIdtM9tBeRRUBXb)
-
-![](https://cdn.has-cool.pics/tB4e2ddGfNu5Hl2hjECOW9LAQ.png?k=JpMLToUvO2LR6SLR)
+![](https://i.ibb.co/vwxHBdz/Screenshot-20220424-105739-Tik-Tok.jpg)
 
 ---
 
