@@ -1,4 +1,4 @@
-module github.com/monkeyskid/Tiktok-shares-bot
+module github.com/ruanpablodev/TikTok-Share-bot
 
 go 1.17
 
