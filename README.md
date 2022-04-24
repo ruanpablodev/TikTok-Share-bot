@@ -1,29 +1,30 @@
-# Fast Tiktok Sharebot
+# O Mais Rápido Gerador de compartilhamento.
 
 ![](https://img.shields.io/badge/status-working-%2300FF00)
 
-Adds millions of shares to your tiktoks in a couple of minutes.
+Adiciona Milhões de Compartilhamentos Em minutos.
 
-## Setup
+## Instalaçao
 
--   [Install go](https://go.dev/dl/)
+-   [Instale o go](https://go.dev/dl/)
 
-Run these commands in your terminal:
+Após a instalação do GO , rode esses comandos em seu terminal:
 
 ```go
 go get github.com/valyala/fasthttp
 go get github.com/corpix/uarand
 ```
 
-To run the bot:
+Para Iniciar o Bot Use:
 
 ```go
 go run .
 ```
 
-Then input your desired threads and the video id.
+Coloque quantos threads quer, e depois o ID do video.
 
-The video ID looks like this: `https://www.tiktok.com/@somone/video/<THIS RIGHT HERE>`
+Você acha o id do vídeo na URL do video: `https://www.tiktok.com/@somone/video/<O ID FICA AKI>`
+Caso você esteja no celular , copie a URL do vídeo no tiktok , cole no Chrome, e depois copie o nono link gerado.
 
 ## Preview
 
@@ -35,4 +36,4 @@ The video ID looks like this: `https://www.tiktok.com/@somone/video/<THIS RIGHT 
 
 ---
 
-By monkeyskid
+By Ruan Pablo
